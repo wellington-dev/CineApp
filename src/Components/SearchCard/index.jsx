@@ -38,7 +38,6 @@ function SearchCard() {
       
       <h2 style={{color:'white'}}>Resultados encontrados: {query}</h2>
    
-
       {moviesList.results && 
       <div>
         {moviesList.results.map((mov)=>(

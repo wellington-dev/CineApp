@@ -10,11 +10,12 @@ export const ContainerRow = styled.div`
         margin:30px auto;
     }
 `
+
 export const CardRow = styled.section`
     width:87%;
     margin:0 auto;
-      
 `
+
 export const CardMovie = styled.div`
     border:3px solid ${({theme})=>theme.colors.secundary}; 
     border-radius: 10px;
@@ -34,8 +35,8 @@ export const CardMovie = styled.div`
     h2{
         margin:0 auto;
     }
-
 `
+
 export const BoxImg = styled.div`
       span{
             display: none; //span que esta dentro do component TmdbImage
