@@ -12,6 +12,7 @@ import Footer from '../Components/Footer'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 
 import {Container} from './styles'
+
 function Rotas() {
   return (
     <BrowserRouter>
