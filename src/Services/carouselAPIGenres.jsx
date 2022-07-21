@@ -1,6 +1,7 @@
 import api from './api'
 const API_KEY = "7d0b44ab787c467197003efed20daad2";
 
+
 const basicFetch = async (endepoint) => {
     const res = await api.get(`${endepoint}`);
     return await res.data;
