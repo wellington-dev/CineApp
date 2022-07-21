@@ -6,6 +6,7 @@ import {Container, AreaList, MobileContainer} from './styles'
 function SearchMobile() {
   const {searchMobileClick} = useMovies()
 
+  
   return (
     <Container>
       <AreaList>
