@@ -22,8 +22,8 @@ export const Button = styled.button`
             display: flex;
         }
 `
-export const Section = styled.div`
 
+export const Section = styled.div`
         @media(max-width:1035px){
         width: 100%; 
         display: flex;   
