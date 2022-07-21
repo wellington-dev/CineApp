@@ -4,7 +4,6 @@ import {ContainerImg} from './styles';
 
 export function TmdbImage({movie}) {
  
-
   return (
     <ContainerImg>
       
