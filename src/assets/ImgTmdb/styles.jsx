@@ -17,6 +17,7 @@ export const ContainerImg = styled.div`
     &:hover{
         color:#fff;
     }
+    
     @media(max-width:1020px){
         width:100px;
     } 
