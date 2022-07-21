@@ -14,7 +14,6 @@ export const Featured = styled.section`
     background-repeat: no-repeat;
 
     .loading{
-       
         display:flex;
         justify-content: center;
         align-items: center;
