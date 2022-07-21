@@ -4,6 +4,7 @@ import notFound from '../../assets/notFound.png'
 
 import {Container, ErrorLines, Button} from './styles'
 
+
 function NotFound() {
 
   return (
