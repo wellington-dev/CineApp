@@ -1,4 +1,3 @@
-import Header from "./Components/Header"
 import GlobalStyles from './styles/global'
 import MoviesProvider from "./Context/MovieContext"
 import Rotas from "./routes"
