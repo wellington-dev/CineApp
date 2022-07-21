@@ -10,6 +10,7 @@ import {MenuContainer, MenuItem} from "./styles"
 
 
 function Menu() {
+  
   const {click, setClick} = useMovies()
   const {setSeacrhMobileClick} = useMovies()
 
@@ -23,7 +24,6 @@ function Menu() {
     
     <MenuContainer click={click}>
 
-    
         <MenuItem><NavLink to='/' onClick={closeMenuDisableInput}>
           <img src={inconHome} alt='Imagem da do home tela principal' />Home
           </NavLink>

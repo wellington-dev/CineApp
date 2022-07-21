@@ -59,7 +59,6 @@ export const MenuContainer = styled.ul`
 `
 
 export const MenuItem = styled.li`
-    
     margin:0 5px;
    
     font-weight:100;
