@@ -5,6 +5,7 @@ import {useMovies} from '../../Context/MovieContext'
 
 import {SeacrhContainer, Form, Button} from "./styles"
 
+
 function Search() {
 
   const navigate = useNavigate();
