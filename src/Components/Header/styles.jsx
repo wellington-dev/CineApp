@@ -5,6 +5,7 @@ export const Container = styled.div`
     max-width:2110px;
     margin:auto;
 `
+
 export const NavBar = styled.div`
     display:flex;
     align-items: center;

@@ -8,6 +8,7 @@ import { useMovies } from '../../Context/MovieContext'
 
 import {Container, NavBar, NavMenu, HamburgueMenu} from './styles'
 
+
 function Header() {
 
   const {click, setClick} = useMovies()
