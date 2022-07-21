@@ -20,6 +20,7 @@ export const ContainerCard = styled.div`
     }  
 
 `
+
 export const CardVertical = styled.div`
     width:100%;
     height:100%;
@@ -31,11 +32,13 @@ export const CardHorizontal = styled.div`
     height:100%;
     background: linear-gradient(to bottom, #000, transparent 100%);
 `
+
 export const CardRow = styled.section`
         width:100%;
         max-width:2110px;
         margin:auto;
 `
+
 export const CardListarea = styled.section`
        width:87%;
        margin:0 auto;

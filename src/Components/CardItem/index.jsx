@@ -20,7 +20,6 @@ function CardItem() {
     const [detail, setDetail] = useState([])
     const { addToFavorites} = useMovies()
     
-
     const {id} = useParams()
 
     useEffect(()=>{
