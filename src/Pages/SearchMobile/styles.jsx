@@ -7,6 +7,7 @@ export const Container = styled.div`
         margin:auto;
 `
 
+
 export const AreaList = styled.div`
     width:87%;
     margin:0 auto;
