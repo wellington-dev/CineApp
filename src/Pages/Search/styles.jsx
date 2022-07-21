@@ -10,6 +10,7 @@ export const SeacrhContainer = styled.div`
         }
 
 `
+
 export const Button = styled.button`
     
         width:45px;
@@ -34,6 +35,7 @@ export const Button = styled.button`
             display: none;
         }
 `
+
 export const Form = styled.form`
        display:flex;
        justify-content: space-between;
