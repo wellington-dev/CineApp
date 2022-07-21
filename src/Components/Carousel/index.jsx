@@ -45,7 +45,6 @@ function Carousel({item}) {
         {item.items.results.length > 0 && item.items.results.map((fil)=>(  
            
                 <SwiperSlide  key={fil.id} >
-
                     <Link to={`/cardItem/${fil.id}`}>
                       <TmdbImage movie={fil} key={fil.id}/>
                     </Link>
