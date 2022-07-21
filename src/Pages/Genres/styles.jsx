@@ -5,8 +5,7 @@ export const Container = styled.div`
     max-width:2110px;
     margin:auto;
 
-    .loading-genres{
-        
+    .loading-genres{ 
         color:#fff;
         margin: 0 auto;
     }
