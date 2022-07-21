@@ -2,8 +2,8 @@ import React from 'react'
 import iconsLinkedin from '../../assets/iconsLinkedin.png'
 import iconsGithub from '../../assets/iconsGithub.png'
 
-
 import {Container ,FooterInfor,Footertext} from './styles'
+
 
 function Footer() {
   return (
