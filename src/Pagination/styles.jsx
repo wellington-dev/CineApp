@@ -6,6 +6,7 @@ export const PageContainer = styled.div`
     display:flex;
 `
 
+
 export const PaginationItem  = styled.button`
     cursor: pointer;
     overflow: hidden;
