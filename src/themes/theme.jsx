@@ -34,7 +34,6 @@ export const theme = {
    
   }
 
-  
   // 'Lobster', cursive;
   // 'Roboto', sans-serif;
   // 'Montserrat', sans-serif;
