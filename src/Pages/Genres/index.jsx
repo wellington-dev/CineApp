@@ -19,7 +19,6 @@ function Genres() {
   },[])
 
 
-
   return (
     <Container>
       {moviesGenres.length <= 0 &&  <div className='loading-genres'>

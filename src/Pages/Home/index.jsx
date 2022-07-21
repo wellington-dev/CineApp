@@ -7,17 +7,14 @@ import {MovieRow, MovieRowListarea} from './styles'
 
 function Home() {
     
-
   const [movieList, setMovieList] = useState([]);
+
   useEffect(()=>{
       const loadAll = async()=>{
-
       let res = await tmdbApi.getHomeList()
       setMovieList(res)
-
-
-      
     }
+    
     loadAll()
   },[])
  

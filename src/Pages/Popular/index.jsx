@@ -9,6 +9,7 @@ import {Link} from 'react-router-dom'
 import iconsFavorit from '../../assets/iconsFavorit.png'
 import {ContainerPopular, PopularImg, MoviesPopular, Button} from './styles'
 
+
 function Popular() {
  
   const [listPopular,setListPopular] = useState([])
