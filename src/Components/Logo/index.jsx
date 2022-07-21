@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import {LogoContainer} from "./styles"
 import {useMovies} from "../../Context/MovieContext"
 
+
 function Logo() {
   const {setSeacrhMobileClick} = useMovies()
 

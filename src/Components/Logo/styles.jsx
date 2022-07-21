@@ -10,9 +10,11 @@ export const LogoContainer = styled.div`
     font-family:${({theme})=>theme.fonts[0]};
     text-shadow:0 2px 1px ${({theme})=>theme.colors.white} ;
     z-index: 1;
+
     a{
         color:${({theme})=>theme.colors.white};
     }
+    
     span{
         text-shadow:0 2px 1px ${({theme})=>theme.colors.red};
         background:${({theme})=>theme.colors.red};
