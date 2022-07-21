@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import {PageContainer, PaginationItem} from './styles'
 
-
 function Pagination({pages, items, current}) {
   
     const [maxPageNumberLimit,setMaxPageNumberLimit] = useState(5);
