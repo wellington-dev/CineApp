@@ -32,7 +32,6 @@ const deleteMovie = (id)=>{
 
     {movie.length === 0 && <span className='add-the-movie'>Você precisa salvar filmes na sua lista!</span>}
 
-
     {movie.map((fil) => ( 
             <FavoriteImg key={fil.id}>           
                 <Link to={`/cardItem/${fil.id}`}>
