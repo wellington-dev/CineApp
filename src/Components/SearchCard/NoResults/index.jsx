@@ -11,7 +11,7 @@ function NoResults() {
     const [searchParams] = useSearchParams();
     const query = searchParams.get("q")
     
-  return (
+return (
     <ErrorContainer>
         
           {moviesList.results  && moviesList.results.length === 0 && (

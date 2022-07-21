@@ -38,6 +38,7 @@ export const ErrorInformation = styled.section`
 
 export const GuideList = styled.ul`
  padding:15px 20px 5px 50px;
+ 
     li{
             list-style-type:disc;
             padding:5px 0px;
