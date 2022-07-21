@@ -10,9 +10,7 @@ const requests = {
     const res = await api.get(`movie/${id}?api_key=${API_KEY}&language=pt-BR`);
     return res.data; 
   },
- 
- 
-  
+   
 };
 
 export default requests;
