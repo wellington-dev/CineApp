@@ -44,9 +44,9 @@ function FeatuedMovie() {
     loadBanner()
   },[])
 
-  let firstDate = new Date(bannerData.release_date)
 
-    
+  let firstDate = new Date(bannerData.release_date)
+  
   return (
     
     <Featured  style={{
