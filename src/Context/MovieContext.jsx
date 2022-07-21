@@ -1,4 +1,4 @@
-import React, {createContext, useContext, useState, useEffect} from 'react'
+import React, {createContext, useContext, useState} from 'react'
 import { toast } from 'react-toastify';
 
 const MoviesContext = createContext()
@@ -12,8 +12,6 @@ function MoviesProvider({children}) {
     const [currentPage,setCurrentPage] = useState(1); 
   
    
-
-
   const  addToFavorites = (item)=>{
     //aqui converto para array?, caso não exista essa lista, cria uma vazia
     const myList = JSON.parse(localStorage.getItem("cineApp")) || [];
