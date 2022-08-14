@@ -1,5 +1,5 @@
 import React from "react"
-import inconHome from "../../assets/inconHome.png"
+import inconHome from "../../assets/InconHome.png"
 import iconCine from "../../assets/iconCine.png"
 import iconGenero from "../../assets/iconsGenero.png"
 import iconsFavorit from "../../assets/iconsFavorit.png"
