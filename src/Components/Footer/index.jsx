@@ -15,8 +15,7 @@ function Footer() {
             </a>
             <a href='https://github.com/wellington-dev' target="_blank">
               <img src={iconsGithub}  alt='icons do github para ir pro meu github'/>
-            </a>
-      
+            </a>   
         </FooterInfor>
 
         <Footertext>
