@@ -27,9 +27,6 @@ export const Footertext = styled.footer`
 
     .footer-color{
         font-family:${({theme})=>theme.fonts[0]};
-        text-shadow: 2px 1px 5px ${({theme})=>theme.colors.white};
-
-        color:${({theme})=>theme.colors.red};
-        font-weight: bold;
+        color:${({theme})=>theme.colors.orange};
     }
 `
