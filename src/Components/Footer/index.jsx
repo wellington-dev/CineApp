@@ -20,7 +20,7 @@ function Footer() {
         </FooterInfor>
 
         <Footertext>
-          <span>Desenvolvido por <span className='footer-color'>wellington Queiroz</span></span>
+          <span>Desenvolvido por <span className='footer-color'>Wellington Queiroz</span></span>
         </Footertext>
         
     </Container>
